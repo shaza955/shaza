@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(245, 187, 80);
+}
+
+.ddd{
+    height: 100px;
+}
+/* start navbar */ 
+.navbar
+{
+    margin-top: 0;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    background-color:rgb(99, 4, 4);
+    height: 65px;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-size: 35px;
+   padding-top: 10px;
+}
+
+.navbar .nav-item{
+    background-color: rgba(177, 68, 49, 0.466);
+    
+}
+
+.navbar .nav-item .nav-link{
+    color: rgb(3, 2, 0);
+    margin: 10px 15px;
+    font-size: 25px;
+    
+}
+
+.navbar .navbar-toggler{
+    background-color: rgba(161, 9, 9, 0.562);
+}
+
+/* End navbar */
+
+/* start h1 */
+.tit{
+    text-align: center;
+    color: rgb(2, 68, 2);
+    font-size: 60px;
+}
+/*End h1 */
+
+/* start article */
+.blogs .container .par{
+    margin-top: 40px;
+    background-color:rgb(228, 160, 34);
+}
+
+.blogs .container .par h2{
+    text-align: center;
+    color: rgb(146, 12, 12);
+    font-size: 35px;
+}
+
+.blogs .container .par p{
+    margin: 4%;
+}
+
+/* End article */
+
+@media(max-width: 992px){
+    .ddd{
+        height: 80px;
+    }
+    .navbar .navbar-brand{
+        color: #fff;
+        font-size: 30px;
+       padding-top: 2px;
+    }
+}
